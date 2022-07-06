@@ -12,7 +12,7 @@ public class Razminka {
 
     public static void inputData() {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Введите 3 слова: ");
+        System.out.print("Р’РІРµРґРёС‚Рµ 3 СЃР»РѕРІР°: ");
         String inputString = sc.nextLine();
         reverseString(inputString);
     }
@@ -23,7 +23,7 @@ public class Razminka {
         long timeSecond = System.currentTimeMillis();
         long timeThird = System.currentTimeMillis();
         String reversedString = new StringBuffer(inputString).reverse().toString();
-        System.out.println("Итоговое слово: " + reversedString);
+        System.out.println("РС‚РѕРіРѕРІРѕРµ СЃР»РѕРІРѕ: " + reversedString);
 
         for (int i=0; i<1000; i++) {
           reversedString = new StringBuffer(inputString).reverse().toString();
@@ -38,10 +38,5 @@ public class Razminka {
         }
         System.out.println(System.currentTimeMillis() - timeThird + " - 10000");
      }
-    
-//    Введите 3 слова: kek re f
-//Итоговое слово: f er kek
-//0 - 1000
-//15 - 10000
-//31 - 10000
+   
 }
