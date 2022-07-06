@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class Razminka {
     
-    public static void main(String[] args) {
-              
+    public static void main(String[] args) {   
         inputData();
     }
    
@@ -18,7 +17,6 @@ public class Razminka {
     }
     
     public static void reverseString(String inputString) {
-
         long timeFirst = System.currentTimeMillis();
         long timeSecond = System.currentTimeMillis();
         long timeThird = System.currentTimeMillis();
